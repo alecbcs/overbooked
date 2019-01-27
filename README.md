@@ -7,7 +7,7 @@ For example: `module load python/3.6`
 
 The default max cores per node value is set at 28. Change that to fit your systems config before running.  
 Then simply run `python3 overbooked.py`.
----
+
 The system will scan the cluster using the `qstat` command and print out the ID's of any nodes that appear to be overbooked.  
 Overbooked meaning that there are more processes alotted to users than available and as such the processes are using the same resources.
 
